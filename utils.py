@@ -1,7 +1,12 @@
 from cryptography.fernet import Fernet
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 
-a="secret_key"
+
+
+a=os.getenv("secret_key")
 key=Fernet(a)
 
 

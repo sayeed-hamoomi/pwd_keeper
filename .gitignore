@@ -1,3 +1,5 @@
 .env
 pwdkeeper.db
 *.db
+.venv/
+__pycache__/
